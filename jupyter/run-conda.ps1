@@ -13,4 +13,4 @@ pip install pandas
 pip install sqlalchemy==1.4.32
 pip install pyathena==2.14.0
 
-jupyter notebook
+jupyter notebook ennablData.ipynb

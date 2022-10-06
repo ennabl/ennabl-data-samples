@@ -8,11 +8,10 @@ conda create --name ennablData python=3.9 ipykernel jupyter nb_conda -y
 echo "Activating ennablData"
 eval "$(conda shell.bash hook)"
 conda activate ennablData
- 
-# Install Glue Sessions to Env
+
 echo "Installing dependencies"
 pip install pandas
 pip install sqlalchemy==1.4.32
 pip install pyathena==2.14.0
 
-jupyter notebook
+jupyter notebook ennablData.ipynb
