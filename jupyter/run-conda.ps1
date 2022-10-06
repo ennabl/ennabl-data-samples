@@ -8,7 +8,6 @@ conda create --name ennablData python=3.9 ipykernel jupyter nb_conda -y
 echo "Activating ennablData"
 conda activate ennablData
  
-# Install Glue Sessions to Env
 echo "Installing dependencies"
 pip install pandas
 pip install sqlalchemy==1.4.32
