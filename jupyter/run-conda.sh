@@ -10,8 +10,6 @@ eval "$(conda shell.bash hook)"
 conda activate ennablData
 
 echo "Installing dependencies"
-pip install pandas
-pip install sqlalchemy==1.4.32
-pip install pyathena==2.14.0
+pip install -r requirements.txt
 
 jupyter notebook ennablData.ipynb
